@@ -1,0 +1,15 @@
+Name:           hswebapp
+Version:        0.1
+Description:    Example Bitcoin Web App
+Author:         Christopher Reichert
+Maintainer:     creichert07@gmail.com
+Build-Type:     Simple
+Cabal-Version:  >=1.2
+
+Extra-source-Files: README.md
+
+Executable hswebapp
+    Main-is:        Main.hs
+    Build-Depends:  base, happstack, http-conduit, aeson,
+                    happstack-server, bytestring, blaze-html,
+                    blaze-markup, jmacro
