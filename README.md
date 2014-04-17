@@ -1,6 +1,7 @@
-Bitcoin API:
-===========
-This is an example web app writting in Haskell for getting Bitcoin statistics.
+hswebapp
+========
+
+### Example web app writting in Haskell for getting Bitcoin statistics.
 
 Included:
 * Basic landing page templates with css.
